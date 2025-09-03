@@ -89,3 +89,7 @@ while (numero<=30):
     potencia=numero*numero
     print(f"{numero}**2={potencia}")
     numero=numero+1
+multiplicacion=1
+for i in range(1, 21):
+    multiplicacion=i*multiplicacion
+    print(multiplicacion)
